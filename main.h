@@ -8,7 +8,7 @@
 /**
  * struct strprt - Argument type and string to print
  *
- * @letter: Type of argument 
+ * @specifier: Type of argument
  * @f: Function associated
  */
 typedef struct strprt

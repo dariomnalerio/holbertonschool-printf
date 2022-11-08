@@ -24,17 +24,11 @@ int get_printf_func(va_list args, char spec)
 		if (letter[i].specifier[0] == spec)
 		{
 			return ((letter[i].f)(args));
-			i++;
 		}
+		i++;
 	}
 
-	if (spec != '\0')
-	{
-		_putchar('%');
-		_putchar(spec);
-		return (2);
-	}
-	/* when spec == NULL */
-	else
-		return (_putchar('%'));
+	_putchar('%');
+	_putchar(spec);
+	return (2);
 }
