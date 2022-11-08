@@ -1,12 +1,15 @@
 ![banner printf](https://user-images.githubusercontent.com/113644952/200680637-d7c00c44-c01a-4158-8854-29e2ef26088c.png)
-
-
-* Write a function that produces output according to a format.
-*  Prototype: int _printf(const char *format, ...);
  
- ![giphy](https://user-images.githubusercontent.com/113644952/200672396-90eeffd7-7cdc-48bb-8d78-e5b0d856b8d3.gif)
-
-
+ ## Create your own printf function
+     
+     
+     * Write a function that produces output according to a format.
+     *  Prototype: int _printf(const char *format, ...); 
+ 
+                                                                         
+<h4 align="center">
+:construction: Proyecto en construcción :construction:
+</h4>
 
 # introduction :fax: 
 * The printf function sends formatted output to stdout.  _printf() function format string is a character string, beginning and ending in its initial shift state, if any.   These arguments are placed using the percentage '%' operator 
@@ -17,10 +20,13 @@
 |Handle conversion specifiers | d, i.|
 | Create a man page for your function. | man |
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/113644952/200672396-90eeffd7-7cdc-48bb-8d78-e5b0d856b8d3.gif"/>
+</p>
 
-<h4 align="center">
-:construction: Proyecto en construcción :construction:
-</h4>
+
+
+
 
 ## Authorized functions and macros    :customs:
 
