@@ -47,8 +47,7 @@ Output: Hello Holberton   :page_facing_up:
 
 ____________________________________________________________________
 
-you can see more information in te manual page
-
+you can see more information in the manual page, run like this;
 
 ![run manual _printf](https://user-images.githubusercontent.com/113644952/200889724-89736867-9ad8-4d87-b34d-7b95890bf711.PNG)
 
