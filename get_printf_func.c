@@ -14,6 +14,8 @@ int get_printf_func(va_list args, char spec)
 		{"c", print_c},
 		{"%", print_p},
 		{"s", print_s},
+		{"d", print_num},
+		{"i", print_num},
 		{NULL, NULL}
 	};
 

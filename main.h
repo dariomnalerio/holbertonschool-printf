@@ -23,5 +23,7 @@ int get_printf_func(va_list args, char spec);
 int print_c(va_list args);
 int print_p(va_list args);
 int print_s(va_list args);
+int print_num(va_list args);
+void _print(long int n);
 
 #endif

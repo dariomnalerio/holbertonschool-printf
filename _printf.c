@@ -9,7 +9,7 @@
 
 int _printf(const char *format, ...)
 {
-	int i, strlen;
+	int i, strlen = 0;
 	va_list args;
 
 	va_start(args, format);
@@ -29,6 +29,7 @@ int _printf(const char *format, ...)
 				i++;
 			}
 		}
+
 		else
 		{
 			_putchar(format[i]);
