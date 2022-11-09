@@ -55,16 +55,30 @@ The code must be compiled this way:
 
 * gcc -Wall -Werror -Wextra -pedantic *.c
 
-__________________________________________________
 
-Use & Examples
-Prototype: int _printf(const char *format, ...); Use - General: _printf("format string", var1, var2, ...);   
+## Examples
 
-Examples:
+Prototype: int _printf(const char *format, ...); 
 
-Basic String: _printf("%s Holberton", "Hello");`   
+Use - General: _printf("format string", var1, var2, ...);   
 
-Output: Hello Holberton   :page_facing_up:
+### String
+
+Input: _printf("%s Holberton.", "Hello");
+
+Output: Hello Holberton.
+
+### Integer
+
+Input: _printf("We are from Cohort %d.", 19);
+
+Output: We are from Cohort 19.
+
+### Character
+
+Input: _printf("Your name starts with %c.", 'J');
+
+Output: Your name starts with J.
 
 ____________________________________________________________________
 
