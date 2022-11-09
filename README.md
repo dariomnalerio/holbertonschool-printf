@@ -16,9 +16,8 @@
 | Create a man page for your function. | man |
 
 
-<h4 align="center">
-:construction: Proyecto en construcción :construction:
-</h4>
+
+
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/113644952/200672396-90eeffd7-7cdc-48bb-8d78-e5b0d856b8d3.gif" alt="printed"/>
