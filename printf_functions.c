@@ -62,7 +62,11 @@ int print_num(va_list args)
 	int count = 0;
 
 	if (n < 0)
-		count = 1;
+	{
+		_putchar('-');
+		n = -n;
+		count++;
+	}
 
 	if (n == 0)
 	{
@@ -71,7 +75,7 @@ int print_num(va_list args)
 		return (count);
 	}
 
-	while (num > 0)
+	while (num != 0)
 	{
 		num = num / 10;
 		count++;
@@ -88,12 +92,6 @@ int print_num(va_list args)
 */
 void _print(long int n)
 {
-
-	if (n < 0)
-	{
-		_putchar('-');
-		n = -n;
-	}
 
 	/* Remove last digit and recur */
 	if (n / 10)
