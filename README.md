@@ -66,14 +66,17 @@ Basic String: _printf("%s Holberton", "Hello");`
 Output: Hello Holberton   :page_facing_up:
 
 
+________________________________________________________
+
+You can open a man page and get more information about it.
+
+![run manual _printf](https://user-images.githubusercontent.com/113644952/200885722-144d6544-ab6c-4cec-9ed3-4751ac6a121b.PNG)
 
 
+┘
 
 
-
-
-
-
+![manual printf](https://user-images.githubusercontent.com/113644952/200886064-8a4f6fb8-1525-45e6-9ed3-68ee9cdcfe43.PNG)
 
 
 
