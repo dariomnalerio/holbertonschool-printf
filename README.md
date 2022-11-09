@@ -1,14 +1,14 @@
 ![banner printf](https://user-images.githubusercontent.com/113644952/200710905-dde5393e-6a50-47da-b475-e5b874924598.png)
 
 
-* Write a function that produces output according to a format.
-*  Prototype: int _printf(const char *format, ...);
  
 
 
 # Introduction :fax: 
 * _printf   is a custom implementation of the C programming function printf. This project is an application of the C 
 programming language learnt by Mauricio Correa and Dario Nalerio.
+
+*  Prototype: int _printf(const char *format, ...);
 
 # Project Requirements
 
@@ -35,9 +35,19 @@ Authorized functions and macros:
 - [x]  Handle conversion specifiers d, i.
 - [x]  Create a man page for your function.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/113644952/200672396-90eeffd7-7cdc-48bb-8d78-e5b0d856b8d3.gif" alt="printed"/>
-</p>
+## File Descriptions
+- ***_printf.c***: Contains the function _printf. _printf returns the number of characters printed, excluding the null byte at the end of the string, and will write output to stdout.
+
+- ***_putchar.c***:  Contains the function _putchar, which writes a character to stdout.
+
+- ***main.h***:  contains all function prototypes used in the program.
+
+- ***printf_functions.c***:  contains the functions print_c, print_s, print_p and print_num, which deal with specifiers c, s, %, d, and i.
+
+- ***get_printf_func.c***: selects the correct function to be carried out in printf_functions.c.
+
+- ***3_printf.man***:  man page for our _printf function. It can be executed by typing "man ./3_printf.man"
+
 
 __________________________________________
 Compilation   :hammer:
