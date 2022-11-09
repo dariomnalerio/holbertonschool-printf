@@ -6,26 +6,39 @@
  
 
 
-# introduction :fax: 
-* The printf function sends formatted output to stdout.  _printf() function format string is a character string, beginning and ending in its initial shift state, if any.   These arguments are placed using the percentage '%' operator 
+# Introduction :fax: 
+* _printf   is a custom implementation of the C programming function printf. This project is an application of the C 
+programming language learnt by Mauricio Correa and Dario Nalerio.
 
+# Project Requirements
 
-| Write function that produces output with conversion specifiers| c, s, and % |
-| --- | --- |
-|Handle conversion specifiers | d, i.|
-| Create a man page for your function. | man |
+* All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 
+* Code must follow the Betty style.
 
+* Global variables are not allowed.
 
+* No more than 5 functions per file.
 
+Authorized functions and macros:
+- write (man 2 write)
+- malloc (man 3 malloc)
+- free (man 3 free)
+- va_start (man 3 va_start)
+- va_end (man 3 va_end)
+- va_copy (man 3 va_copy)
+- va_arg (man 3 va_arg)
+
+## Mandatory Tasks
+
+- [x]  Write function that produces output with conversion specifiers c, s, and %.
+- [x]  Handle conversion specifiers d, i.
+- [x]  Create a man page for your function.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/113644952/200672396-90eeffd7-7cdc-48bb-8d78-e5b0d856b8d3.gif" alt="printed"/>
 </p>
 
-## Authorized functions and macros    :customs:
-
-write (man 2 write) malloc (man 3 malloc) free (man 3 free) va_start (man 3 va_start) va_end (man 3 va_end) va_copy (man 3 va_copy) va_arg (man 3 va_arg)
 __________________________________________
 Compilation   :hammer:
 The code must be compiled this way:
