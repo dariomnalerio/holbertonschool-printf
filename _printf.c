@@ -24,10 +24,8 @@ int _printf(const char *format, ...)
 			if (format[i + 1] == '\0')
 				return (-1);
 
-			{
-				strlen += get_printf_func(args, format[i + 1]);
-				i++;
-			}
+			strlen += get_printf_func(args, format[i + 1]);
+			i++;
 		}
 
 		else
