@@ -62,8 +62,6 @@ Prototype: int _printf(const char *format, ...);
 
 Use - General: _printf("format string", var1, var2, ...);
 
-____________________________________________________________________
-
 ### String
 
 Input: _printf("%s Holberton.", "Hello");
