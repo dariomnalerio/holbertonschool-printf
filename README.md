@@ -60,7 +60,9 @@ The code must be compiled this way:
 
 Prototype: int _printf(const char *format, ...); 
 
-Use - General: _printf("format string", var1, var2, ...);   
+Use - General: _printf("format string", var1, var2, ...);
+
+____________________________________________________________________
 
 ### String
 
@@ -80,15 +82,7 @@ Input: _printf("Your name starts with %c.", 'J');
 
 Output: Your name starts with J.
 
-____________________________________________________________________
 
-you can see more information in the manual page, run like this;
+## Flowchart
 
-![run manual _printf](https://user-images.githubusercontent.com/113644952/200889724-89736867-9ad8-4d87-b34d-7b95890bf711.PNG)
-
-
-
-
-
-![manual printf](https://user-images.githubusercontent.com/113644952/200889456-fb529317-313b-4d4e-8241-e51db1f81336.PNG)
-
+![vaa](https://i.imgur.com/demk0as.png)
