@@ -1,0 +1,56 @@
+.TH NAME  man_3_printf                                                           Liunux Programmer's Manual
+
+_printf
+.SH SYNOPSIS
+#include "main.h"
+.sp 1
+int _printf(const char *format, ...);
+
+.SH DESCRIPTION
+_printf() function sends a formatted string to the standard output.
+ This string can display formatted variables and special control
+.BR _printf ()
+produce output according to a
+.I format
+as described below.
+The function
+.BR _printf ()
+write output to
+.IR stdout ,
+the standard output stream;
+
+
+This function write the output under the control of a
+.I format
+string that specifies how subsequent arguments (or arguments accessed via  the  variable-length argument facilities of
+.BR stdarg(3)
+are converted for output.
+.
+
+.sp 1
+The syntax for a conversion specification is the following:
+.sp 1
+	%[format description character]
+.sp 1
+The type of the arguments must correspond properly with the conversion specificer. Arguments are used in the given order. Each conversion specifier will ask for the next argument. Enough arguments must be given for each converion specifier, if there are more arguments than conversion specificer they will be ignored.
+
+.SS Conversion specifiers
+A character that specifies the type of conversion to be applied.  The conversion specifiers and their meanings are:
+.TP
+.BR "d, i"
+The int argument is converted to signed decimal notation.
+.TP
+.BR c
+The int argument is converted to an unsigned char, and the resulting character is written.
+.TP
+.BR s
+the const char * argument is expected to be a pointer to an array of character type (pointer to a string).  Characters from the array are written up to (but not including) a terminating null byte ('\0').
+.TP
+.BR %
+A \'%\' is written. No argument is converted. The complete conversion specification is \'%%\'.
+.SH RETURN VALUE
+Upon successful return, _printf() will return the number of characters printed (excluding the null byte used to end output to strings).
+.sp 1
+If an output error is encountered, a negative value is returned.
+.SH AUTHORS
+Mauricio Correa and Dario Nalerio.
