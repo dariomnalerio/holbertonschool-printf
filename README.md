@@ -5,7 +5,7 @@
 
 
 # Introduction :fax: 
-* _printf   is a custom implementation of the C programming function printf. This project is an application of the C 
+* _printf   is a custom implementation of the C programming function printf. This project the result of the C 
 programming language learnt by Mauricio Correa and Dario Nalerio.
 
 *  Prototype: int _printf(const char *format, ...);
@@ -83,4 +83,4 @@ Output: Your name starts with J.
 
 ## Flowchart
 
-![vaa](https://i.imgur.com/demk0as.png)
+![vaa](https://i.imgur.com/yHNwgwA.png)
