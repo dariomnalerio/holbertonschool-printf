@@ -63,9 +63,9 @@ int print_num(va_list args)
 
 	if (n < 0)
 	{
-		_putchar('-');
-		n = -n;
-		count++;
+		_putchar('-'); /* Manually adds negative sign */
+		n = -n; /* Makes number positive */
+		count++; /* Counts negative sign */
 	}
 
 	if (n == 0)
@@ -75,6 +75,7 @@ int print_num(va_list args)
 		return (count);
 	}
 
+	/* Counts lenght of stirng */
 	while (num != 0)
 	{
 		num = num / 10;
@@ -97,5 +98,6 @@ void _print(long int n)
 	if (n / 10)
 		_print(n / 10);
 
+	/* Prints last digit */
 	_putchar(n % 10 + '0');
 }
